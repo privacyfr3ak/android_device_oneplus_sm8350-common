@@ -472,3 +472,6 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8350-common/sm8350-common-vendor.mk)
+
+# enable AXP.OS vendor
+$(call inherit-product, vendor/axp/config/common.mk)
